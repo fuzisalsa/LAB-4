@@ -12,69 +12,87 @@ via winbox terminal
 ![y](tl1.PNG) 
 
 # selanjutnya saya akan menuliskan beberapa perintah CLI dasar:  
-1. jika kalian ingin memasukan ip-dhcp client maka commadnya:
+1. jika kalian ingin memasukan dhcp-client maka commadnya:
    
         ip dhcp-client add interface=ether1 use-peer-dns=yes use-peer-ntp=yes add-default-route=yes disabled=no
    
-3. mengganti identitas mikrotik:
+2. mengganti identitas mikrotik:
 
        system identity set name=(RB-Blajar-Fuzi)
    
-5. melihat interfaces:
+3. melihat interfaces:
 
         interface print
    
-7. mengganti nama interfaces:
+4. mengganti nama interfaces:
 
        interface set name=(ether1-ISP) ether1
 
-8. melihat ip address:
+5. melihat ip address:
   
         ip address print / ip ad pr
     
-9. menambahkan ip address:
-
+6. menambahkan ip address:
+ 
         ip address add address=10.10.10.1/24 interfaces=(ether2)
     
-10. melihat Gateway:
+7. melihat Gateway:
 
         ip route print
     
-11. menambahkan Gateway:
+8. menambahkan Gateway:
 
         ip route add gateway=10.10.2.1
     
-12. melihat DNS:
+9. melihat DNS:
 
         ip dns print
 
-13. menambahkan DNS:
+10. menambahkan DNS:
 
         ip dns set server=8.8.8.8(ip google) allow-remote-requests=yes
     
-14. menambahkan perintah NAT:
+11. menambahkan perintah NAT:
 
         ip firewall nat add chain=srcnat action=masquerade out-interfaces=ether1-ISP
 
     
-15. melihat configurasi NAT:
+12. melihat configurasi NAT:
 
         ip firewall nat prnit
     
-17. Membuat user baru dan password dengan hak akses full:
+13. Membuat user baru dan password dengan hak akses full:
 
         user add name=fuzi group=full password=fuzi123
     
-21. melihat user:
+14. melihat user:
 
         user prnit
     
-23. melihat lisensi
+15. melihat lisensi:
 
         system license prnit
 
-    
+16. menambahkan dhcp-server:
 
+        ip dhcp-server add
+        isi ether dengan tujuan kalian
+
+# meliat commad yang tersedia 
+Nah, jika kita lupa saat sedang konfigurasi,kalian bisa mengunakan key/tombol TAB di keyboard (disamping Q)   
+untuk melihat command list/daftar perintah yang bisa digunakan.
+
+![tab](tab.PNG)
+
+dan untuk ? kita bisa melihat perintah dengan pengertian nya. 
+
+![tab](tanya.PNG)
+
+
+
+
+
+    
    
 
 
