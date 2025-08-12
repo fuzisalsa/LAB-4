@@ -78,7 +78,28 @@ via winbox terminal
         ip dhcp-server add
         isi ether dengan tujuan kalian
 
-# meliat commad yang tersedia 
+17. factory reset
+
+        system reset-configuration
+    
+18. mengkonfigurasi pool 
+
+        ip pool add name=pool-2 ranges=192.168.88.1-192.168.88.50
+
+19. restart/reboot mikrotik
+
+        system reboot
+
+20. mematikan/shutdown mikrotik
+
+         system shutdown
+
+21. mengaktifkan NTP sever
+
+        system ntp client set enabled=yes server-dns-name=0.pool.ntp.org
+
+22. 
+ # meliat commad yang tersedia 
 Nah, jika kita lupa saat sedang konfigurasi,kalian bisa mengunakan key/tombol TAB di keyboard (disamping Q)   
 untuk melihat command list/daftar perintah yang bisa digunakan.
 
