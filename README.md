@@ -4,7 +4,7 @@ tanggal 12 agustus 2025
 selain merimote mikrotik dengan mode GUI kita juga bisa dengan cara CLI Command Line Interface [terminal].  
 Bisa di akses via winbox terminal, webfig terminal, putty, mikrotik pro untuk smartphone. 
 
-cotoh :  
+conoh :  
 via winbox terminal
 ![y](tl.PNG) 
 
