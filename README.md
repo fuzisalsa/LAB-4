@@ -30,7 +30,7 @@ via winbox terminal
 
 8. melihat ip address:
   
-        ip address print / ip a
+        ip address print / ip ad pr
     
 9. menambahkan ip address:
 
