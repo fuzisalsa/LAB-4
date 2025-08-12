@@ -11,7 +11,7 @@ via winbox terminal
     untuk memulai configurasi tekan ctrl+c 
 ![y](tl1.PNG) 
 
-# selanjutnya saya akan menuliskan beberapa perintah CLI dasar:  
+# beberapa perintah CLI dasar:  
 1. jika kalian ingin memasukan dhcp-client maka commadnya:
    
         ip dhcp-client add interface=ether1 use-peer-dns=yes use-peer-ntp=yes add-default-route=yes disabled=no
