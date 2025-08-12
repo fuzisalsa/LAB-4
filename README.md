@@ -88,6 +88,8 @@ dan untuk ? kita bisa melihat perintah dengan pengertian nya.
 
 ![tab](tanya.PNG)
 
+![tab](tanya2.PNG)
+
 
 
 
