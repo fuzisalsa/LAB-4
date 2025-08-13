@@ -111,6 +111,9 @@ dan untuk ? kita bisa melihat perintah dengan pengertian nya.
 
 ![tab](tanya2.PNG)
 
+# KESIMPULAN 
+kesimpulan nya adalah mode cli ini sangat simpel, jika ingin menconfigurasi secara langsung  
+
 
 
 
